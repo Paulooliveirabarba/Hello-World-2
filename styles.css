@@ -4,7 +4,12 @@ body {
     margin: 0; /* Remove margens padrão do corpo */
     padding: 0; /* Remove preenchimento padrão do corpo */
 }
-
+.container {
+    position: relative; /* Define a posição relativa para o contêiner */
+    max-width: 800px; /* Define a largura máxima do contêiner para centralizar o conteúdo */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    padding: 20px; /* Adiciona um espaçamento interno ao redor do contêiner */
+}
 .cabecalho {
     display: flex; /* Use flexbox para alinhar os itens horizontalmente */
     justify-content: space-between; /* Distribua os itens uniformemente ao longo do cabeçalho */
