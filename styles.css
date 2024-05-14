@@ -9,7 +9,7 @@ body {
     display: flex; /* Use flexbox para alinhar os itens horizontalmente */
     justify-content: space-between; /* Distribua os itens uniformemente ao longo do cabeçalho */
     align-items: center; /* Centralize verticalmente os itens do cabeçalho */
-    padding: 15px; /* Adicione um espaçamento interno ao cabeçalho */
+    padding: 20px; /* Adicione um espaçamento interno ao cabeçalho */
     background-color: #fff; /* Cor de fundo branca para o cabeçalho */
 }
 
