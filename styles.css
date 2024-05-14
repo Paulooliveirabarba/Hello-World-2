@@ -31,6 +31,6 @@ body {
 }
 
 .imagem-telepar, .imagem-seed {
-    width: 100px; /* Define a largura da imagem como 150 pixels */
-    height: 150px; /* Define a altura da imagem como 200 pixels (proporção de 3x4) */
+    width: 50px; /* Define a largura da imagem como 150 pixels */
+    height: 100px; /* Define a altura da imagem como 200 pixels (proporção de 3x4) */
 }
