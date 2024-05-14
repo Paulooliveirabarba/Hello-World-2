@@ -20,6 +20,7 @@ body {
     color: #333; /* Cor padrão para o texto */
 }
 .imagem {
-    width: 100%; /* Define a largura da imagem como 100% */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 100%;
+    height: auto;
+    image-rendering: auto; /* ou 'pixelated' */
 }
