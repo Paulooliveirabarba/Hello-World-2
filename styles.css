@@ -23,4 +23,6 @@ body {
     position: absolute; /* Define a posição absoluta para a imagem */
     top: 20px; /* Define a distância do topo */
     right: 20px; /* Define a distância da direita */
+    width: 200px; /* Define a largura da imagem como 200 pixels */
+    height: 267px; /* Define a altura da imagem como 267 pixels (proporção de 3x4) */
 }
