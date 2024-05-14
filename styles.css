@@ -1,0 +1,4 @@
+body {
+    background-color: #f2f2f2; /* Cor de fundo cinza claro */
+    background-image: radial-gradient(circle, #f2f2f2, #add8e6); /* Efeito radial de cinza claro para azul claro */
+}
