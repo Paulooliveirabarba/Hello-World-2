@@ -2,3 +2,9 @@ body {
     background-color: #f2f2f2; /* Cor de fundo cinza claro */
     background-image: radial-gradient(circle, #f2f2f2, #add8e6); /* Efeito radial de cinza claro para azul claro */
 }
+.imagem {
+    width: 100%; /* Define a largura da imagem como 100% da largura do seu contêiner */
+    max-width: 600px; /* Define a largura máxima da imagem para evitar que ela fique muito grande em telas maiores */
+    display: block; /* Define a imagem como um bloco para centralizá-la horizontalmente */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
