@@ -5,11 +5,12 @@ body {
     padding: 0; /* Remove preenchimento padrão do corpo */
 }
 
-.container {
-    position: relative; /* Define a posição relativa para o contêiner */
-    max-width: 800px; /* Define a largura máxima do contêiner para centralizar o conteúdo */
-    margin: 0 auto; /* Centraliza o contêiner na página */
-    padding: 20px; /* Adiciona um espaçamento interno ao redor do contêiner */
+.cabecalho {
+    display: flex; /* Use flexbox para alinhar os itens horizontalmente */
+    justify-content: space-between; /* Distribua os itens uniformemente ao longo do cabeçalho */
+    align-items: center; /* Centralize verticalmente os itens do cabeçalho */
+    padding: 20px; /* Adicione um espaçamento interno ao cabeçalho */
+    background-color: #fff; /* Cor de fundo branca para o cabeçalho */
 }
 
 .titulo {
@@ -22,21 +23,9 @@ body {
     text-align: justify; /* Justifica o texto */
     line-height: 1.6; /* Define o espaçamento entre linhas do texto */
     color: black; /* Cor preta para o texto */
-    margin-top: 240px; /* Adiciona um espaço acima do texto para acomodar as imagens */
 }
 
-.imagem-telepar {
-    position: absolute; /* Define a posição absoluta para a imagem */
-    top: 20px; /* Define a distância do topo */
-    left: 20px; /* Define a distância da esquerda */
-    width: 150px; /* Define a largura da imagem como 150 pixels */
-    height: 200px; /* Define a altura da imagem como 200 pixels (proporção de 3x4) */
-}
-
-.imagem-seed {
-    position: absolute; /* Define a posição absoluta para a imagem */
-    top: 20px; /* Define a distância do topo */
-    right: 20px; /* Define a distância da direita */
+.imagem-telepar, .imagem-seed {
     width: 150px; /* Define a largura da imagem como 150 pixels */
     height: 200px; /* Define a altura da imagem como 200 pixels (proporção de 3x4) */
 }
