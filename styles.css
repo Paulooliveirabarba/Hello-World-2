@@ -27,3 +27,10 @@ body {
     width: 150px; /* Define a largura da imagem como 150 pixels */
     height: 150px; /* Define a altura da imagem como 200 pixels (proporção de 3x4) */
 }
+.imagem2 {
+    position: absolute; /* Define a posição absoluta para a imagem */
+    top: 20px; /* Define a distância do topo */
+    right: 40px; /* Define a distância da esquerda */
+    width: 150px; /* Define a largura da imagem como 150 pixels */
+    height: 150px; /* Define a altura da imagem como 200 pixels (proporção de 3x4) */
+}
