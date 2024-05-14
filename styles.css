@@ -19,3 +19,8 @@ body {
     line-height: 1.6; /* Define o espaçamento entre linhas do texto */
     color: #333; /* Cor padrão para o texto */
 }
+.imagem {
+    position: absolute; /* Define a posição absoluta para a imagem */
+    top: 20px; /* Define a distância do topo */
+    right: 20px; /* Define a distância da direita */
+}
