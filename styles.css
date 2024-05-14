@@ -22,6 +22,7 @@ body {
     text-align: justify; /* Justifica o texto */
     line-height: 1.6; /* Define o espaçamento entre linhas do texto */
     color: black; /* Cor preta para o texto */
+    margin-top: 240px; /* Adiciona um espaço acima do texto para acomodar as imagens */
 }
 
 .imagem-telepar {
