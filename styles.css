@@ -15,7 +15,7 @@ body {
     justify-content: space-between; /* Distribua os itens uniformemente ao longo do cabeçalho */
     align-items: center; /* Centralize verticalmente os itens do cabeçalho */
     padding: 20px; /* Adicione um espaçamento interno ao cabeçalho */
-    background-color: #fff; /* Cor de fundo branca para o cabeçalho */
+    background: radial-gradient(circle, #add8e6, #f2f2f2); /* Cor de fundo branca para o cabeçalho */
 }
 
 .titulo {
