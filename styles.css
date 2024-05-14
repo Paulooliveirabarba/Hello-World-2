@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo do texto */
-    background-color: #f2f2f2; /* Cor de fundo cinza claro */
+    background: radial-gradient(circle, #2374ec, #9c9393); /* Gradiente radial indo do azul claro para o cinza */
 }
 
 .container {
